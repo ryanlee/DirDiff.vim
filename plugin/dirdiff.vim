@@ -110,7 +110,7 @@ let s:DirDiffBLine = 2
 " -- Variables used in various utilities
 if has("unix")
     let s:DirDiffCopyCmd = "cp"
-    let s:DirDiffCopyFlags = ""
+    let s:DirDiffCopyFlags = "-f"
     let s:DirDiffCopyDirCmd = "cp"
     let s:DirDiffCopyDirFlags = "-rf"
     let s:DirDiffCopyInteractiveFlag = "-i"
